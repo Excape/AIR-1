@@ -61,9 +61,6 @@ ota:
   platform: esphome
   password: "apolloautomation"
 
-safe_mode:
-  disabled: true
-
 wifi:
   on_connect:
     - delay: 5s # Gives time for improv results to be transmitted
